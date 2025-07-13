@@ -1,8 +1,4 @@
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left , bottom right;
-}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -11,9 +7,32 @@
   font-variation-settings:
     "wdth" 100;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .dark-2{
     color:#474747 ;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+
+/* Nav styles  */
+
+
 nav{
     display: flex;
     align-items: center;
@@ -76,4 +95,39 @@ nav ul{
 }
 .banner-content{
     max-width: 580px;
+}
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* About Styles */
+
+.about{
+    border-radius: 10px;
+    padding:100px 150px ;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-me{
+    background-color: #FFFFFF;
+    width: 827px;
+    height: 250px;
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-title{
+    font-size: 18px;
+    color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    color: #181818;
 }
