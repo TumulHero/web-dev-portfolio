@@ -22,6 +22,9 @@
     font-size: 18px;
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 
 
 .header{
@@ -102,6 +105,10 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* About Styles */
 
@@ -130,4 +137,53 @@ main{
 .item-description{
     font-weight: bold;
     color: #181818;
+}
+
+/* skills style  */
+.skills{
+    margin-top: 20px;
+}
+
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.skill{
+    height:267px ;
+    width: 377px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px #00000023;
+    padding: 30px;
+    border-radius:5px ;
+    
+}
+
+/* resume styles  */
+
+.resume-container{
+    display: flex;
+}
+.resume hr{
+    margin-right: 30px;
+}
+.resume div h5{
+    color: #757575;
+    font-size: 20px;
+}
+.resume div h2,h3{
+    color: #474747;
+}
+.experience-description{
+    
+    color: #757575;
+}
+.btn-cv{
+    display: block;
+}
+.resume button{
+    margin-top: 50px;
 }
